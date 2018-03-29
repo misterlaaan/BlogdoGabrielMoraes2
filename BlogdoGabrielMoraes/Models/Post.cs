@@ -1,13 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace BlogdoGabrielMoraes.Models
 {
     public class Post
-    {
+    {       
         public int Id { get; set; }
         [Required]
         [StringLength(500)]
@@ -18,4 +15,5 @@ namespace BlogdoGabrielMoraes.Models
         [StringLength(8000)]
         public string PostingBody { get; set; }
     }
+}
 }

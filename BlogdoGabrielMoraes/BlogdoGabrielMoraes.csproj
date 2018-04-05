@@ -194,6 +194,22 @@
     <Compile Include="Migrations\201803281139522_InitialModel.Designer.cs">
       <DependentUpon>201803281139522_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803291525527_NewUpdate.cs" />
+    <Compile Include="Migrations\201803291525527_NewUpdate.Designer.cs">
+      <DependentUpon>201803291525527_NewUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803291529542_Update.cs" />
+    <Compile Include="Migrations\201803291529542_Update.Designer.cs">
+      <DependentUpon>201803291529542_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804031250384_AttEditNew.cs" />
+    <Compile Include="Migrations\201804031250384_AttEditNew.Designer.cs">
+      <DependentUpon>201804031250384_AttEditNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804031459357_ByteImage.cs" />
+    <Compile Include="Migrations\201804031459357_ByteImage.Designer.cs">
+      <DependentUpon>201804031459357_ByteImage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -261,11 +277,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Post\Index.cshtml" />
-    <Content Include="Views\Post\Details.cshtml" />
-    <Content Include="Views\Post\Edit.cshtml" />
-    <Content Include="Views\Post\Delete.cshtml" />
-    <Content Include="Views\Post\DeleteComplete.cshtml" />
+    <Content Include="Views\Posts\Index.cshtml" />
+    <Content Include="Views\Posts\Edit.cshtml" />
+    <Content Include="Views\Posts\Delete.cshtml" />
+    <Content Include="Views\Posts\DeleteComplete.cshtml" />
+    <Content Include="Views\Posts\New.cshtml" />
+    <Content Include="Views\Posts\Dt.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -286,6 +303,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201803281139522_InitialModel.resx">
       <DependentUpon>201803281139522_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803291525527_NewUpdate.resx">
+      <DependentUpon>201803291525527_NewUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803291529542_Update.resx">
+      <DependentUpon>201803291529542_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804031250384_AttEditNew.resx">
+      <DependentUpon>201804031250384_AttEditNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804031459357_ByteImage.resx">
+      <DependentUpon>201804031459357_ByteImage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
